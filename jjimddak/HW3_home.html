@@ -9,25 +9,25 @@
       rel="stylesheet"
       type="text/css"
     />
-    
+
     <title>Home | Menu</title>
     <style>
       @font-face {
         font-family: "Vulpa";
-        src: url("http://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.eot"); /* IE9*/
-        src: url("http://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.eot?#iefix")
+        src: url("https://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.eot"); /* IE9*/
+        src: url("https://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.eot?#iefix")
             format("embedded-opentype"),
           /* IE6-IE8 */
-            url("http://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.woff2")
+            url("https://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.woff2")
             format("woff2"),
           /* chrome firefox */
-            url("http://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.woff")
+            url("https://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.woff")
             format("woff"),
           /* chrome firefox */
-            url("http://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.ttf")
+            url("https://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.ttf")
             format("truetype"),
           /* chrome firefox opera Safari, Android, iOS 4.2+*/
-            url("http://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.svg#Vulpa")
+            url("https://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.svg#Vulpa")
             format("svg"); /* iOS 4.1- */
       }
       html,
@@ -91,11 +91,19 @@
         margin-top: 200px;
         margin-left: 450px;
         width: 150px;
-        border-style: solid double;
-        border-color: black;
+        /* border-style: solid double;
+        border-color: black; */
+        border: 1px solid black;
+        padding: 2px;
         height: 35px;
+
         color: black;
         font-family: Arial, Helvetica, sans-serif;
+        background-color: #fdfffe;
+      }
+      .butt {
+        padding: 7px;
+        border: 1px solid black;
       }
 
       .container {
@@ -169,7 +177,9 @@
 
     <div class="header main">
       <h1 class="center enjoy">Enjoy the Scenic View!!</h1>
-      <button type="button" disabled>Book Your Reservation</button>
+      <button type="button" disabled>
+        <div class="butt">Book Your Reservation</div>
+      </button>
     </div>
 
     <div class="container main">
@@ -191,7 +201,7 @@
         <div class="col">
           <img
             class="pink"
-            src="/Users/home/Documents/571/italiancuisine.jpg"
+            src="https://fondue.bg/wp-content/uploads/2019/09/italiancuisine.jpg"
             alt=""
           />
         </div>
@@ -199,8 +209,8 @@
           <p class="lead" style="padding-left: 30px">
             <span style="color: #204ca0; font-weight: bold"
               >Italy's finest </span
-            ><br />From our Lasagna to our Protein Penne, we <br> have delicious
-            options for every taste!
+            ><br />From our Lasagna to our Protein Penne, we <br />
+            have delicious options for every taste!
           </p>
         </div>
       </div>
@@ -209,7 +219,8 @@
           <p class="lead" style="padding-right: 30px">
             <span style="color: #204ca0; font-weight: bold"
               >India's Flavors:</span
-            ><br />Our dishes are blended with masterful <br> savory spices
+            ><br />Our dishes are blended with masterful <br />
+            savory spices
           </p>
         </div>
         <div class="col">
@@ -242,7 +253,8 @@
           <p class="lead" style="margin-right: 30px">
             <span style="color: #204ca0; font-weight: bold">Desserts:</span
             ><br />
-            From Italian Tiramisu to Indian Gulab <br> Jamun
+            From Italian Tiramisu to Indian Gulab <br />
+            Jamun
           </p>
         </div>
         <div class="col">
