@@ -4,14 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold"
-      rel="stylesheet"
-      type="text/css"
-    />
 
     <title>Home | Menu</title>
     <style>
+     
+      @font-face {
+        font-family: "comic sans ms  bold";
+        font-style: normal;
+        font-weight: 700;
+        src: local("Comic Sans MS  Bold"), local("ComicSansMS-Bold"),
+          url(http://allfont.es/cache/fonts/comic-sans-ms-bold_a1b80394f5a8455df4c4236b2f87345d.woff)
+            format("woff"),
+          url(http://allfont.es/cache/fonts/comic-sans-ms-bold_a1b80394f5a8455df4c4236b2f87345d.ttf)
+            format("truetype");
+      }
       @font-face {
         font-family: "Vulpa";
         src: url("https://db.onlinewebfonts.com/t/8d71d4bffc1f99556c3c9273b4309ae2.eot"); /* IE9*/
@@ -188,7 +194,7 @@
         style="
           color: #72106e;
           font-size: 20px;
-          font-family: 'Comic Sans MS Bold', arial;
+          font-family: 'comic sans ms  bold', arial;
           text-decoration-line: underline;
           text-decoration-style: double;
           margin: 30px;
